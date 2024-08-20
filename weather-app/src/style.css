@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+h1{
+  font-size: 4vw;
+  color: rgb(1, 126, 84);
+  margin: 2rem;
+  text-align: center;
+  border: 2px solid rgb(1, 126, 84);
+  width: fit-content;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forecast-link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  background-color: rgb(1, 126, 84);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 2rem;
+}
+
+p{
+  font-size: 2vw;
+  color: rgb(1, 126, 84);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+button{
+  background-color: rgb(1, 126, 84);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-size: 2vw;
+  border: none;
+}
+
+.label{
+  font-size: 4vw;
+  color: rgb(1, 126, 84);
+  margin-top: 1rem;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 2vw;
+  margin:10px 0;
+  background-color: rgba(0, 139, 93, 0.568);
+  color: rgb(0, 75, 59);
+  border: 5px solid rgb(0, 75, 59);
+}
+
+.temp-units{
+  padding-left: 12.5vw;
+  color: rgb(1, 126, 84);
+  margin-bottom: 1rem;
+}
+
+.temp-units select{
+  width: 70%;
+  color: rgb(0, 75, 59);
+}
+
+#weather{
+  font-size: 2rem;
+  color: rgb(1, 126, 84);
+  border: 2px solid rgb(1, 126, 84);
+  width: fit-content;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+}
+
+#weather p{
+  margin-bottom: 20px;
+}
+
+#weather img{
+  width: 250px;
+  height: 250px;
+}
+
+#daily-weather h2{
+  margin: 0 10px;
+}
+
+h6{
+  margin: 5px 0;
+}
+
+.day{
+  border: 2px solid rgb(1, 126, 84);
+  padding: 10px;
+  margin: 0 10px ;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.day p{
+  font-size: 1vw;
+  color: rgb(1, 126, 84);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
