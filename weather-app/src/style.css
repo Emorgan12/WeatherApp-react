@@ -93,12 +93,6 @@ button{
   display: flex;
 }
 
-#weather p{
-  margin-bottom: 20px;
-  width: 100%;
-  height: fit-content;
-}
-
 #daily-weather{
   display: inline-flex;
   flex-wrap: wrap;
@@ -137,4 +131,16 @@ h6{
 a{
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+#current-weather{
+  font-size: 2rem;
+  color: rgb(1, 126, 84);
+  border: 2px solid rgb(1, 126, 84);
+  width: fit-content;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }

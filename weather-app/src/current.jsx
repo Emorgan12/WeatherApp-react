@@ -73,7 +73,7 @@ function Current() {
             {weather.main && (
                 <>
                 <div class="container">
-                    <div id="weather">
+                    <div id="current-weather">
                         <p>Weather in <span id="city">{city}</span> right now</p>
                         <img src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`} />
                         <p><span id="condition">{weather.weather[0].description}</span></p>

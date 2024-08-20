@@ -98,67 +98,67 @@ function Daily() {
                     <h6>12am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
                 <p style={{ display: 'none' }}>{index = index + 1}</p>
                 <div className="3hr">
                     <h6>3am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index+1].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
                 <p style= {{display: 'none'}}>{index = index +1}</p>
                 <div className="3hr">
                     <h6>6am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index+1+1].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>12pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>3pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
             </div>
             <h2>In 2 Days</h2>
@@ -168,66 +168,66 @@ function Daily() {
                     <h6>12am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
                 <p style= {{display: 'none'}}>{index = index +1}</p>
                 <div className="3hr">
                     <h6>3am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>12pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>3pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
             </div><h2>In 3 Days</h2>
             <div className="day">
@@ -236,66 +236,66 @@ function Daily() {
                     <h6>12am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
                 <p style= {{display: 'none'}}>{index = index +1}</p>
                 <div className="3hr">
                     <h6>3am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>12pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>3pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
             </div><h2>In 4 Days</h2>
             <div className="day">
@@ -304,66 +304,66 @@ function Daily() {
                     <h6>12am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
                 <p style= {{display: 'none'}}>{index = index +1}</p>
                 <div className="3hr">
                     <h6>3am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9am</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>12pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>3pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>6pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 <p style= {{display: 'none'}}>{index = index +1}</p></div>
                 <div className="3hr">
                     <h6>9pm</h6>
                     <img src={`http://openweathermap.org/img/w/${weather.list[index].weather[0].icon}.png`} alt=""></img>
                     <p><span id="Condition">{weather.list[index].weather[0].main}</span></p>
-                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}</span></p>
-                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}</span></p>
-                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}</span></p>
+                    <p>Temperature: <span id="temperature">{weather.list[index].main.temp}°C</span></p>
+                    <p>Feels like: <span id="feels-like">{weather.list[index].main.feels_like}°C</span></p>
+                    <p>Wind Speed: <span id="wind-speed">{weather.list[index].wind.speed}m/s</span></p>
                 </div>
             </div>
             </div>
