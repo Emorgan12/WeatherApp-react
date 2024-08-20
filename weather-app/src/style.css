@@ -95,15 +95,23 @@ button{
 
 #weather p{
   margin-bottom: 20px;
+  width: 100%;
+  height: fit-content;
 }
 
-#weather img{
-  width: 250px;
-  height: 250px;
+#daily-weather{
+  display: inline-flex;
+  flex-wrap: wrap;
+flex-direction: column;
+  width: 100%;
 }
 
 #daily-weather h2{
   margin: 0 10px;
+}
+
+#daily-weather div{
+  width: 100%;
 }
 
 h6{
